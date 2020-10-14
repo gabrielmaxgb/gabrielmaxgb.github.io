@@ -1,15 +1,61 @@
 body {
-    background-color: #a29978;
+    background-color: #74fff3;
 }
 
-header span.my-name {
+header .my-name {
     font-family: 'Staatliches', cursive;
+    position: relative;
+    color: white;
+    background-color: black;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    font-size: 2rem
 }
 
 .my-description {    
     font-family: monospace;
+    font-size: 2rem;
+    max-width: 30rem;
+    float: right;
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    margin: 1.4rem 1.5rem;
+    
 }
 
 section p.my-description span {
     font-weight: bold;
+}
+
+header img {
+    width: 18rem;
+    border: solid 5px;
+    position: relative;
+    margin: 1rem 0 0 1rem;
+    float: left;
+
+}
+header {
+    background: white;
+    padding: 2rem; 
+    height: 25rem;  
+}
+
+section ul{
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+div.skills {
+    text-align: center;
+    margin: 2rem 0 0 0;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
 }
