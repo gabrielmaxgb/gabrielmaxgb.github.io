@@ -1,0 +1,15 @@
+body {
+    background-color: #a29978;
+}
+
+header span.my-name {
+    font-family: 'Staatliches', cursive;
+}
+
+.my-description {    
+    font-family: monospace;
+}
+
+section p.my-description span {
+    font-weight: bold;
+}
