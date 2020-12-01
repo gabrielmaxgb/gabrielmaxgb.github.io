@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-image: linear-gradient(to right, #3E4DA1 , #625ea8);
+    padding: 1rem;
+
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Major Mono Display', monospace;
+}
+
+header p {
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    letter-spacing: .2rem;
+    text-align: center;
+    font-size: larger;
+    line-height: 1.5rem;
+}
+
+.social-media-links {
+    display: flex;
+    align-self: center;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+.social-media-links ul {
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+    padding: .5rem .5rem;
+}
+
+.social-media-links ul li {
+    list-style: none;
+    margin: 0 .4rem;
+}
+
+/* MAIN CONTENT */
+
+main {
+
+}
+
+.presentation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-image: linear-gradient(to right, #3E4DA1 , #625ea8);
+    padding: 3rem 0;
+}
+
+.stacks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 110px 10px 10px 10px;
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem;
+}
+
+.stacks h1{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3rem;
+}
+
+.stack-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 30vw;
+    padding: 0;
+}
+
+.stack-list-item {
+    margin: .3rem;
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: .4rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.stack-list-item:hover {
+    background-color: #625ea8;
+    color: black;
+    transition: .3s;
+}
+
+.finding-bugs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 10px 110px 10px 10px;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.finding-bugs h1 {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
